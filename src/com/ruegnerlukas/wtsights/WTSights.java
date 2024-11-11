@@ -24,7 +24,6 @@ import java.io.IOException;
 
 public class WTSights extends Application {
 
-	
 	private static Stage primaryStage;
 	
 	public static boolean DEV_MODE = false;
@@ -96,7 +95,7 @@ public class WTSights extends Application {
 	
 	
 	@Override
-	public void start(Stage primaryStage) throws Exception {
+	public void start(Stage primaryStage) throws Exception {m
 		
 		
 		Config.load(new File(JarLocation.getJarLocation(WTSights.class) + (wasStartedInsideData ? "" : "/data") + "/config.json"));
